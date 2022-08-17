@@ -1,0 +1,53 @@
+:root {
+  --default-font-family: "Nunito", sans-serif;
+  --default-font-color: #272142;
+  --secondary-font-color: #fff;
+  --active-font-color: #662eed;
+}
+
+body {
+  font-family: var(--default-font-family);
+  color: var(--default-font-color);
+}
+
+.header {
+  margin-bottom: 62px;
+}
+
+.clicked {
+  color: var(--active-font-color);
+}
+
+.menu {
+  margin: 0 140px;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  color: var(--default-font-color);
+}
+
+.logo {
+  padding-right: 45rem;
+}
+
+.hero {
+  max-width: 1440px;
+  height: 265px;
+  background-image: url(/images/overlay.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1,
+h3 {
+  color: var(--secondary-font-color);
+  text-align: center;
+}
+
+.hero__text {
+  padding: 47px 0;
+}
+
+h3 {
+  max-width: 560px;
+  margin: auto;
+}
