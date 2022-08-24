@@ -80,6 +80,12 @@ h3 {
   margin: 100px 120px 40px 120px;
 }
 
+.footer a,
+.about-text__links a {
+  text-decoration: none;
+  color: var(--default-font-color);
+}
+
 .footer__icon:not(:last-child) {
   margin-right: 20px;
 }
