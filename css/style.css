@@ -198,8 +198,16 @@ h3 {
 
 /* About page  */
 
+.about-header {
+  margin-bottom: 0;
+}
+
 .main-about {
   margin: 0 240px 100px 240px;
+}
+
+.about-menu {
+  margin-bottom: 26px;
 }
 
 .h1-about {
@@ -237,4 +245,20 @@ h2 {
 
 .about-icon:not(:last-child) {
   margin-right: 30px;
+}
+
+.menu__heading {
+  font-size: 36px;
+  line-height: 39px;
+  margin-bottom: 41px;
+  text-align: center;
+}
+
+.menu_favorite {
+  display: flex;
+}
+
+.menu_favorite h4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
