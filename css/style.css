@@ -3,6 +3,7 @@
   --default-font-color: #272142;
   --secondary-font-color: #fff;
   --active-font-color: #662eed;
+  --footer-bg: #f9f7fe;
 }
 
 body {
@@ -75,9 +76,10 @@ h3 {
 }
 
 .footer {
+  background: var(--footer-bg);
   display: flex;
   justify-content: space-between;
-  margin: 100px 120px 40px 120px;
+  padding: 30px 100px;
 }
 
 .footer a,
@@ -94,6 +96,7 @@ h3 {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 19px;
+  margin-bottom: 0;
 }
 
 @media (max-width: 576px) {
@@ -132,7 +135,7 @@ h3 {
   }
 
   .footer {
-    margin: 30px 20px 20px 10px;
+    padding: 30px 10px;
   }
 
   .footer img {
@@ -175,7 +178,15 @@ h3 {
   }
 
   .footer {
-    margin: 50px 55px 20px 55px;
+    padding: 30px 50px;
+  }
+
+  .footer__logo {
+    width: 100px;
+  }
+
+  .footer__icon:not(:last-child) {
+    margin-right: 10px;
   }
 }
 
@@ -212,7 +223,7 @@ h3 {
   margin: 0 240px 100px 240px;
 }
 
-.about-menu {
+.about-nav {
   margin-bottom: 26px;
 }
 
@@ -251,6 +262,10 @@ h2 {
 
 .about-icon:not(:last-child) {
   margin-right: 30px;
+}
+
+.about-menu {
+  margin-bottom: 100px;
 }
 
 .menu__heading {
