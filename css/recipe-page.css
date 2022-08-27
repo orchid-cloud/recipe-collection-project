@@ -1,0 +1,72 @@
+.collection__heading h1 {
+  color: var(--default-font-color);
+  font-weight: 700;
+}
+
+.collection__recipe {
+  max-width: 760px;
+  margin: auto;
+}
+
+.collection__recipe:not(:last-child) {
+  margin-bottom: 60px;
+}
+
+.collection__recipe:last-child {
+  margin-bottom: 142px;
+}
+
+.collection__img {
+  margin-bottom: 42px;
+}
+
+.collection__text-heading {
+  font-size: 36px;
+  line-height: 49px;
+  font-weight: 700;
+  text-align-last: left;
+  margin-bottom: 32px;
+}
+
+.recipe-subheading {
+  display: flex;
+  gap: 280px;
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: 700;
+  padding-bottom: 25px;
+  border-bottom: 1px dashed var(--border-color);
+  margin-bottom: 38px;
+}
+
+.recipe-steps {
+  display: flex;
+  font-size: 18px;
+}
+
+.steps-ingredients {
+  max-width: 360px;
+  text-align: left;
+  margin-right: 40px;
+}
+
+.steps-ingredients p {
+  padding-bottom: 10px;
+  border-bottom: 1px dashed var(--border-color);
+}
+
+.steps-step {
+  max-width: 360px;
+  text-align: left;
+  line-height: 30px;
+}
+
+.step-1 {
+  margin-bottom: 40px;
+}
+
+.step-heading {
+  line-height: 24px;
+  font-weight: 800;
+  color: var(--recipe-step-heading);
+}
