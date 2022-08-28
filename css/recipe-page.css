@@ -1,6 +1,7 @@
 .collection__heading h1 {
   color: var(--default-font-color);
   font-weight: 700;
+  margin-bottom: 126px;
 }
 
 .collection__recipe {
