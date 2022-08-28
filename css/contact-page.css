@@ -18,3 +18,29 @@
 .contacts__text i {
   margin-right: 15px;
 }
+
+@media (max-width: 576px) {
+  .contacts__heading {
+    margin-bottom: 40px;
+  }
+
+  .contacts__heading h1 {
+    font-size: 46px;
+    line-height: 50px;
+  }
+
+  .contacts__details {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 819px) {
+  .contacts__heading {
+    margin-bottom: 75px;
+  }
+
+  .contacts__heading h1 {
+    font-size: 53px;
+    line-height: 65px;
+  }
+}
