@@ -15,6 +15,29 @@
   margin-bottom: 100px;
 }
 
+.text-contact {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: normal;
+}
+
+.text-contact a {
+  text-decoration: none;
+  color: var(--default-font-color);
+}
+
+.text-heading {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: var(--contact-page-heading-color);
+  text-transform: uppercase;
+}
+
+.contacts__text-item:not(:last-child) {
+  margin-bottom: 50px;
+}
+
 .contacts__text i {
   margin-right: 15px;
 }
