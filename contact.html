@@ -4,10 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Recipe collection. Find a variety of inspiring recipes that are easy, delicious and healthy here."
-    />
+    <meta name="description" content="You can contact us by several ways." />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -21,7 +18,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/css/style.css" />
-    <title>Recipes homepage</title>
+    <link rel="stylesheet" href="/css/contact-page.css" />
+    <title>Contact us</title>
   </head>
   <body>
     <section class="header">
@@ -44,9 +42,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active clicked" aria-current="page" href="/"
-                  >Home</a
-                >
+                <a class="nav-link" aria-current="page" href="/">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/about.html">About</a>
@@ -55,7 +51,9 @@
                 <a class="nav-link" href="/recipe.html">Recipe</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/contact.html">Contact</a>
+                <a class="nav-link active clicked" href="/contact.html"
+                  >Contact</a
+                >
               </li>
             </ul>
           </div>
@@ -63,84 +61,39 @@
       </nav>
     </section>
 
-    <section class="hero">
-      <div class="hero__text">
-        <h1 class="">Recipe collection</h1>
-        <h3>
-          Find a variety of inspiring recipes that are easy, delicious, and
-          healthy here
-        </h3>
+    <section class="contacts container">
+      <div class="contacts__heading">
+        <h1>Contact us</h1>
       </div>
-    </section>
-
-    <section class="main">
-      <div class="container main__container">
-        <div class="row text-center">
-          <div class="col">
-            <img
-              class="img-fluid"
-              src="/images/image1-main.png"
-              alt="dessert with fruits"
-            />
-            <p class="main__text">Wet Vegetable Spring Rolls</p>
-          </div>
-          <div class="col">
-            <img
-              class="img-fluid"
-              src="/images/image2-main.png"
-              alt="meat steak"
-            />
-            <p class="main__text">Wet Vegetable Spring Rolls</p>
-          </div>
+      <div class="contacts__details">
+        <div class="contacts__img">
+          <img
+            class="img-fluid"
+            src="/images/contscts-img.png"
+            alt="portrait"
+          />
         </div>
-        <div class="row text-center">
-          <div class="col">
-            <img
-              class="img-fluid"
-              src="/images/image3-main.png"
-              alt="mashed avocado with vegetables"
-            />
-            <p class="main__text">Wet Vegetable Spring Rolls</p>
+        <div class="contacts__text">
+          <div>
+            <p>Address</p>
+            <p>
+              <i class="fa-solid fa-location-dot"></i>
+              021 Hollywood Boulevard, Los Angeles
+            </p>
           </div>
-          <div class="col">
-            <img
-              class="img-fluid"
-              src="/images/image4-main.png"
-              alt="meatballs"
-            />
-            <p class="main__text">Wet Vegetable Spring Rolls</p>
+          <div>
+            <p>Email</p>
+            <p>
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:info@shecodes.io">info@shecodes.io</a>
+            </p>
           </div>
-        </div>
-        <div class="row text-center">
-          <div class="col">
-            <img
-              class="img-fluid"
-              src="/images/image5-main.png"
-              alt="fish with sides"
-            />
-            <p class="main__text">Wet Vegetable Spring Rolls</p>
-          </div>
-          <div class="col">
-            <img
-              class="img-fluid"
-              src="/images/image6-main.png"
-              alt="pesto pasta"
-            />
-            <p class="main__text">Wet Vegetable Spring Rolls</p>
-          </div>
-        </div>
-        <div class="row text-center">
-          <div class="col">
-            <img
-              class="img-fluid"
-              src="/images/image7-main.png"
-              alt="pancakes with blueberries"
-            />
-            <p class="main__text">Wet Vegetable Spring Rolls</p>
-          </div>
-          <div class="col">
-            <img class="img-fluid" src="/images/image8-main.png" alt="fruits" />
-            <p class="main__text">Wet Vegetable Spring Rolls</p>
+          <div>
+            <p>Phone</p>
+            <p>
+              <i class="fa-solid fa-phone"></i>
+              <a href="tel:0213456789">021 3456 789</a>
+            </p>
           </div>
         </div>
       </div>

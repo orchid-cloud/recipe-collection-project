@@ -1,0 +1,20 @@
+.contacts__heading {
+  margin-bottom: 126px;
+}
+
+.contacts__heading h1 {
+  color: var(--default-font-color);
+  font-weight: 700;
+}
+
+.contacts__details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 100px;
+}
+
+.contacts__text i {
+  margin-right: 15px;
+}
