@@ -70,3 +70,66 @@
   font-weight: 800;
   color: var(--recipe-step-heading);
 }
+
+@media (max-width: 576px) {
+  .collection__img {
+    margin-bottom: 18px;
+  }
+
+  .collection__text-heading {
+    font-size: 27px;
+    line-height: 37px;
+    margin-bottom: 15px;
+  }
+
+  .recipe-subheading {
+    gap: 170px;
+    font-size: 18px;
+    line-height: 25px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+
+  .recipe-steps {
+    font-size: 15px;
+  }
+
+  .steps-ingredients {
+    margin-right: 20px;
+  }
+
+  .steps-step {
+    max-width: 200px;
+    line-height: 23px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 819px) {
+  .collection__text-heading {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+
+  .recipe-subheading {
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+
+  .recipe-steps {
+    font-size: 16px;
+  }
+
+  .steps-step {
+    max-width: 270px;
+    line-height: 22px;
+  }
+}
+
+@media (min-width: 820px) and (max-width: 992px) {
+  .collection__heading h1 {
+    font-size: 65px;
+    line-height: 80px;
+  }
+}

@@ -147,6 +147,10 @@ h3 {
   .footer__icon:not(:last-child) {
     margin-right: 10px;
   }
+
+  .footer__rights {
+    font-size: 14px;
+  }
 }
 
 @media (min-width: 577px) and (max-width: 819px) {
